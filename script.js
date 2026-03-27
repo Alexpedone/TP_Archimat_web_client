@@ -100,8 +100,8 @@ update_new(msgs);
 // TP2
 
 //url du microservice
-const SERVER_URL = 'https://543e09c3-7e93-4422-9f8f-9307dd246a57-00-2pmcjwyo8i0wj.kirk.replit.dev';
-
+// const SERVER_URL = 'https://543e09c3-7e93-4422-9f8f-9307dd246a57-00-2pmcjwyo8i0wj.kirk.replit.dev';
+const SERVER_URL = 'https://tp-archimat-web-client-msg-microservice.onrender.com';
 function chargerMessages(){
    fetch(SERVER_URL + '/msg/getAll')
    .then(function(response) {
